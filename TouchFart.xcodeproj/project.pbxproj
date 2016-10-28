@@ -12,6 +12,10 @@
 		1968E2851DC2E22100422BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1968E2841DC2E22100422BFE /* Assets.xcassets */; };
 		1968E2881DC2E22100422BFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1968E2861DC2E22100422BFE /* Main.storyboard */; };
 		1968E2931DC2E22100422BFE /* TouchFartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1968E2921DC2E22100422BFE /* TouchFartTests.swift */; };
+		1968E29E1DC2E71000422BFE /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1968E29D1DC2E71000422BFE /* WindowController.swift */; };
+		1968E2A11DC2E8DB00422BFE /* 💩.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1968E2A01DC2E8DB00422BFE /* 💩.mp3 */; };
+		1968E2A31DC2E8F700422BFE /* 💨.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1968E2A21DC2E8F700422BFE /* 💨.mp3 */; };
+		1968E2A51DC2F19D00422BFE /* fart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1968E2A41DC2F19D00422BFE /* fart.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 		1968E28E1DC2E22100422BFE /* TouchFartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchFartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1968E2921DC2E22100422BFE /* TouchFartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchFartTests.swift; sourceTree = "<group>"; };
 		1968E2941DC2E22100422BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1968E29D1DC2E71000422BFE /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		1968E2A01DC2E8DB00422BFE /* 💩.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "💩.mp3"; sourceTree = "<group>"; };
+		1968E2A21DC2E8F700422BFE /* 💨.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "💨.mp3"; sourceTree = "<group>"; };
+		1968E2A41DC2F19D00422BFE /* fart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +83,9 @@
 		1968E27F1DC2E22100422BFE /* TouchFart */ = {
 			isa = PBXGroup;
 			children = (
+				1968E29F1DC2E8D100422BFE /* farts */,
 				1968E2801DC2E22100422BFE /* AppDelegate.swift */,
+				1968E29D1DC2E71000422BFE /* WindowController.swift */,
 				1968E2821DC2E22100422BFE /* ViewController.swift */,
 				1968E2841DC2E22100422BFE /* Assets.xcassets */,
 				1968E2861DC2E22100422BFE /* Main.storyboard */,
@@ -91,6 +101,16 @@
 				1968E2941DC2E22100422BFE /* Info.plist */,
 			);
 			path = TouchFartTests;
+			sourceTree = "<group>";
+		};
+		1968E29F1DC2E8D100422BFE /* farts */ = {
+			isa = PBXGroup;
+			children = (
+				1968E2A21DC2E8F700422BFE /* 💨.mp3 */,
+				1968E2A01DC2E8DB00422BFE /* 💩.mp3 */,
+				1968E2A41DC2F19D00422BFE /* fart.mp3 */,
+			);
+			name = farts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +196,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1968E2A31DC2E8F700422BFE /* 💨.mp3 in Resources */,
+				1968E2A51DC2F19D00422BFE /* fart.mp3 in Resources */,
+				1968E2A11DC2E8DB00422BFE /* 💩.mp3 in Resources */,
 				1968E2851DC2E22100422BFE /* Assets.xcassets in Resources */,
 				1968E2881DC2E22100422BFE /* Main.storyboard in Resources */,
 			);
@@ -196,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1968E2831DC2E22100422BFE /* ViewController.swift in Sources */,
+				1968E29E1DC2E71000422BFE /* WindowController.swift in Sources */,
 				1968E2811DC2E22100422BFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
