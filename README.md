@@ -7,7 +7,9 @@ A fart app for the new Macbook Pro's Touch Bar. I'm usually the first one to mak
 3. Works with the TouchFart macOS app to allow selection and playback of predefined fart sounds.
 
 ## Note
-Since the new Macbook isn't available yet, you can test out the Touch Bar's first ever fart app with Xcode 8.1 and macOS Yosemite
+Since the new Macbook isn't available yet, you can test out the Touch Bar's first ever fart app with Xcode 8.1 and macOS Yosemite. Or watch this YouTube video:
+
+[![TouchFart Demo Video](http://img.youtube.com/vi/R6HVyaZpTgM/0.jpg)](http://www.youtube.com/watch?v=R6HVyaZpTgM "TouchFart")
 
 ## Copyright
 Feel free to copy this code and use it to make your own Touch Bar fart app.
