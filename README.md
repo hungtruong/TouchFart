@@ -11,5 +11,8 @@ Since the new Macbook isn't available yet, you can test out the Touch Bar's firs
 
 [![TouchFart Demo Video](http://img.youtube.com/vi/R6HVyaZpTgM/0.jpg)](http://www.youtube.com/watch?v=R6HVyaZpTgM "TouchFart")
 
+## To Do
+Add unit tests.
+
 ## Copyright
 Feel free to copy this code and use it to make your own Touch Bar fart app.
