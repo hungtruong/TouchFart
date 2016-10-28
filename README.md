@@ -1,6 +1,8 @@
 #TouchFart
 A fart app for the new Macbook Pro's [Touch Bar](https://developer.apple.com/macos/touch-bar/). I'm usually the first one to make a fart app when the opportunity presents itself, so why not?
 
+![TouchFart Screenshot](http://i.imgur.com/RTGB9vT.png)
+
 ## Features
 1. Three different fart sounds
 2. Two emoji and one word: "fart"
