@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1968E2811DC2E22100422BFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1968E2801DC2E22100422BFE /* AppDelegate.swift */; };
+		1968E2831DC2E22100422BFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1968E2821DC2E22100422BFE /* ViewController.swift */; };
+		1968E2851DC2E22100422BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1968E2841DC2E22100422BFE /* Assets.xcassets */; };
+		1968E2881DC2E22100422BFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1968E2861DC2E22100422BFE /* Main.storyboard */; };
+		1968E2931DC2E22100422BFE /* TouchFartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1968E2921DC2E22100422BFE /* TouchFartTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1968E28F1DC2E22100422BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1968E2751DC2E22100422BFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1968E27C1DC2E22100422BFE;
+			remoteInfo = TouchFart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1968E27D1DC2E22100422BFE /* TouchFart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchFart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1968E2801DC2E22100422BFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1968E2821DC2E22100422BFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1968E2841DC2E22100422BFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1968E2871DC2E22100422BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1968E2891DC2E22100422BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1968E28E1DC2E22100422BFE /* TouchFartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchFartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1968E2921DC2E22100422BFE /* TouchFartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchFartTests.swift; sourceTree = "<group>"; };
+		1968E2941DC2E22100422BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1968E27A1DC2E22100422BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1968E28B1DC2E22100422BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1968E2741DC2E22100422BFE = {
+			isa = PBXGroup;
+			children = (
+				1968E27F1DC2E22100422BFE /* TouchFart */,
+				1968E2911DC2E22100422BFE /* TouchFartTests */,
+				1968E27E1DC2E22100422BFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1968E27E1DC2E22100422BFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1968E27D1DC2E22100422BFE /* TouchFart.app */,
+				1968E28E1DC2E22100422BFE /* TouchFartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1968E27F1DC2E22100422BFE /* TouchFart */ = {
+			isa = PBXGroup;
+			children = (
+				1968E2801DC2E22100422BFE /* AppDelegate.swift */,
+				1968E2821DC2E22100422BFE /* ViewController.swift */,
+				1968E2841DC2E22100422BFE /* Assets.xcassets */,
+				1968E2861DC2E22100422BFE /* Main.storyboard */,
+				1968E2891DC2E22100422BFE /* Info.plist */,
+			);
+			path = TouchFart;
+			sourceTree = "<group>";
+		};
+		1968E2911DC2E22100422BFE /* TouchFartTests */ = {
+			isa = PBXGroup;
+			children = (
+				1968E2921DC2E22100422BFE /* TouchFartTests.swift */,
+				1968E2941DC2E22100422BFE /* Info.plist */,
+			);
+			path = TouchFartTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1968E27C1DC2E22100422BFE /* TouchFart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1968E2971DC2E22100422BFE /* Build configuration list for PBXNativeTarget "TouchFart" */;
+			buildPhases = (
+				1968E2791DC2E22100422BFE /* Sources */,
+				1968E27A1DC2E22100422BFE /* Frameworks */,
+				1968E27B1DC2E22100422BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchFart;
+			productName = TouchFart;
+			productReference = 1968E27D1DC2E22100422BFE /* TouchFart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1968E28D1DC2E22100422BFE /* TouchFartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1968E29A1DC2E22100422BFE /* Build configuration list for PBXNativeTarget "TouchFartTests" */;
+			buildPhases = (
+				1968E28A1DC2E22100422BFE /* Sources */,
+				1968E28B1DC2E22100422BFE /* Frameworks */,
+				1968E28C1DC2E22100422BFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1968E2901DC2E22100422BFE /* PBXTargetDependency */,
+			);
+			name = TouchFartTests;
+			productName = TouchFartTests;
+			productReference = 1968E28E1DC2E22100422BFE /* TouchFartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1968E2751DC2E22100422BFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Hung Truong";
+				TargetAttributes = {
+					1968E27C1DC2E22100422BFE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					1968E28D1DC2E22100422BFE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1968E27C1DC2E22100422BFE;
+					};
+				};
+			};
+			buildConfigurationList = 1968E2781DC2E22100422BFE /* Build configuration list for PBXProject "TouchFart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1968E2741DC2E22100422BFE;
+			productRefGroup = 1968E27E1DC2E22100422BFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1968E27C1DC2E22100422BFE /* TouchFart */,
+				1968E28D1DC2E22100422BFE /* TouchFartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1968E27B1DC2E22100422BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1968E2851DC2E22100422BFE /* Assets.xcassets in Resources */,
+				1968E2881DC2E22100422BFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1968E28C1DC2E22100422BFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1968E2791DC2E22100422BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1968E2831DC2E22100422BFE /* ViewController.swift in Sources */,
+				1968E2811DC2E22100422BFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1968E28A1DC2E22100422BFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1968E2931DC2E22100422BFE /* TouchFartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1968E2901DC2E22100422BFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1968E27C1DC2E22100422BFE /* TouchFart */;
+			targetProxy = 1968E28F1DC2E22100422BFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1968E2861DC2E22100422BFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1968E2871DC2E22100422BFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1968E2951DC2E22100422BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1968E2961DC2E22100422BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		1968E2981DC2E22100422BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchFart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hung-truong.TouchFart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1968E2991DC2E22100422BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchFart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hung-truong.TouchFart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1968E29B1DC2E22100422BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchFartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hung-truong.TouchFartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchFart.app/Contents/MacOS/TouchFart";
+			};
+			name = Debug;
+		};
+		1968E29C1DC2E22100422BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouchFartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hung-truong.TouchFartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchFart.app/Contents/MacOS/TouchFart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1968E2781DC2E22100422BFE /* Build configuration list for PBXProject "TouchFart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1968E2951DC2E22100422BFE /* Debug */,
+				1968E2961DC2E22100422BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1968E2971DC2E22100422BFE /* Build configuration list for PBXNativeTarget "TouchFart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1968E2981DC2E22100422BFE /* Debug */,
+				1968E2991DC2E22100422BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1968E29A1DC2E22100422BFE /* Build configuration list for PBXNativeTarget "TouchFartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1968E29B1DC2E22100422BFE /* Debug */,
+				1968E29C1DC2E22100422BFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1968E2751DC2E22100422BFE /* Project object */;
+}
