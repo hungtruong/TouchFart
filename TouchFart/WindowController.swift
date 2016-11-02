@@ -8,29 +8,11 @@
 
 import Cocoa
 
-
-fileprivate extension NSTouchBarCustomizationIdentifier {
-    
-    static let touchBar = NSTouchBarCustomizationIdentifier("com.hung-truong.touchfart")
-}
-
-fileprivate extension NSTouchBarItemIdentifier {
-    
-    static let loud = NSTouchBarItemIdentifier("loudfart")
-    static let short = NSTouchBarItemIdentifier("shortfart")
-    static let fart = NSTouchBarItemIdentifier("fart")
-}
-
-
-
 class WindowController: NSWindowController, NSTouchBarDelegate {
 
     override func windowDidLoad() {
         super.windowDidLoad()
-    
-        // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
     }
-    
     
     func handleFart(sender: NSButton) {
         let title = sender.title
@@ -42,14 +24,16 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
         
     }
     
-    
     @available(OSX 10.12.1, *)
     override func makeTouchBar() -> NSTouchBar? {
         let touchBar = NSTouchBar()
         touchBar.delegate = self
         touchBar.customizationIdentifier = .touchBar
         touchBar.defaultItemIdentifiers = [.loud, .short, .fart]
-        
+
+        // Spacing
+        // touchBar.defaultItemIdentifiers = [.loud, .flexibleSpace,.short, .flexibleSpace, .fart]
+
         return touchBar
         
     }
@@ -69,6 +53,7 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
             return touchBarItem
         case NSTouchBarItemIdentifier.fart:
             let button = NSButton(title: "fart", target: self, action: #selector(handleFart))
+            button.bezelColor = NSColor(red:0.35, green:0.61, blue:0.35, alpha:1.00)
             touchBarItem.view = button
             return touchBarItem
         default:
@@ -78,6 +63,5 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
             
         }
     }
-
 
 }
