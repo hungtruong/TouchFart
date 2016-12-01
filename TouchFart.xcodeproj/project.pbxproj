@@ -16,6 +16,7 @@
 		1968E2A11DC2E8DB00422BFE /* 💩.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1968E2A01DC2E8DB00422BFE /* 💩.mp3 */; };
 		1968E2A31DC2E8F700422BFE /* 💨.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1968E2A21DC2E8F700422BFE /* 💨.mp3 */; };
 		1968E2A51DC2F19D00422BFE /* fart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1968E2A41DC2F19D00422BFE /* fart.mp3 */; };
+		2AEBF3D31DCA563400ADE746 /* TouchBarIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBF3D21DCA563400ADE746 /* TouchBarIdentifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		1968E2A01DC2E8DB00422BFE /* 💩.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "💩.mp3"; sourceTree = "<group>"; };
 		1968E2A21DC2E8F700422BFE /* 💨.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "💨.mp3"; sourceTree = "<group>"; };
 		1968E2A41DC2F19D00422BFE /* fart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart.mp3; sourceTree = "<group>"; };
+		2AEBF3D21DCA563400ADE746 /* TouchBarIdentifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchBarIdentifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		1968E27F1DC2E22100422BFE /* TouchFart */ = {
 			isa = PBXGroup;
 			children = (
+				2AEBF3D21DCA563400ADE746 /* TouchBarIdentifiers.swift */,
 				1968E29F1DC2E8D100422BFE /* farts */,
 				1968E2801DC2E22100422BFE /* AppDelegate.swift */,
 				1968E29D1DC2E71000422BFE /* WindowController.swift */,
@@ -220,6 +223,7 @@
 			files = (
 				1968E2831DC2E22100422BFE /* ViewController.swift in Sources */,
 				1968E29E1DC2E71000422BFE /* WindowController.swift in Sources */,
+				2AEBF3D31DCA563400ADE746 /* TouchBarIdentifiers.swift in Sources */,
 				1968E2811DC2E22100422BFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +423,7 @@
 				1968E2991DC2E22100422BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1968E29A1DC2E22100422BFE /* Build configuration list for PBXNativeTarget "TouchFartTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +432,7 @@
 				1968E29C1DC2E22100422BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
