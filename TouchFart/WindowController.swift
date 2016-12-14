@@ -8,30 +8,21 @@
 
 import Cocoa
 
-
 fileprivate extension NSTouchBarCustomizationIdentifier {
-    
     static let touchBar = NSTouchBarCustomizationIdentifier("com.hung-truong.touchfart")
 }
 
 fileprivate extension NSTouchBarItemIdentifier {
-    
-    static let loud = NSTouchBarItemIdentifier("loudfart")
-    static let short = NSTouchBarItemIdentifier("shortfart")
-    static let fart = NSTouchBarItemIdentifier("fart")
+    static let 💩       = NSTouchBarItemIdentifier("💩")
+    static let 💨       = NSTouchBarItemIdentifier("💨")
+    static let fart     = NSTouchBarItemIdentifier("fart")
+    static let dry      = NSTouchBarItemIdentifier("dry")
+    static let creamy   = NSTouchBarItemIdentifier("creamy")
 }
-
 
 
 class WindowController: NSWindowController, NSTouchBarDelegate {
 
-    override func windowDidLoad() {
-        super.windowDidLoad()
-    
-        // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
-    }
-    
-    
     func handleFart(sender: NSButton) {
         let title = sender.title
         
@@ -39,45 +30,22 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
             return
         }
         sound.play()
-        
     }
     
-    
-    @available(OSX 10.12.1, *)
+    @available(OSX 10.12.2, *)
     override func makeTouchBar() -> NSTouchBar? {
         let touchBar = NSTouchBar()
         touchBar.delegate = self
-        touchBar.customizationIdentifier = .touchBar
-        touchBar.defaultItemIdentifiers = [.loud, .short, .fart]
+        touchBar.customizationIdentifier    = .touchBar
+        touchBar.defaultItemIdentifiers     = [.💩, .💨, .fixedSpaceSmall, .fart, .dry, .creamy]
         
         return touchBar
-        
     }
     
-    @available(OSX 10.12.1, *)
+    @available(OSX 10.12.2, *)
     func touchBar(_ touchBar: NSTouchBar, makeItemForIdentifier identifier: NSTouchBarItemIdentifier) -> NSTouchBarItem? {
-        let touchBarItem = NSCustomTouchBarItem(identifier: identifier)
-        switch identifier {
-        case NSTouchBarItemIdentifier.loud:
-            let button = NSButton(title: "💩", target: self, action: #selector(handleFart))
-            touchBarItem.view = button
-            return touchBarItem
-            
-        case NSTouchBarItemIdentifier.short:
-            let button = NSButton(title: "💨", target: self, action: #selector(handleFart))
-            touchBarItem.view = button
-            return touchBarItem
-        case NSTouchBarItemIdentifier.fart:
-            let button = NSButton(title: "fart", target: self, action: #selector(handleFart))
-            touchBarItem.view = button
-            return touchBarItem
-        default:
-            let button = NSButton(title: "fart", target: self, action: #selector(handleFart))
-            touchBarItem.view = button
-            return touchBarItem
-            
-        }
+        let touchBarItem    = NSCustomTouchBarItem(identifier: identifier)
+        touchBarItem.view   = NSButton(title: identifier.rawValue, target: self, action: #selector(handleFart))
+        return touchBarItem
     }
-
-
 }
