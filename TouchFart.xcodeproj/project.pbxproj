@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06D6E1AC1E01E60600F84DF7 /* dry.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 06D6E1AA1E01E5FA00F84DF7 /* dry.m4a */; };
+		06D6E1AD1E01E60600F84DF7 /* creamy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 06D6E1AB1E01E5FA00F84DF7 /* creamy.m4a */; };
 		1968E2811DC2E22100422BFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1968E2801DC2E22100422BFE /* AppDelegate.swift */; };
 		1968E2831DC2E22100422BFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1968E2821DC2E22100422BFE /* ViewController.swift */; };
 		1968E2851DC2E22100422BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1968E2841DC2E22100422BFE /* Assets.xcassets */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06D6E1AA1E01E5FA00F84DF7 /* dry.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = dry.m4a; sourceTree = "<group>"; };
+		06D6E1AB1E01E5FA00F84DF7 /* creamy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = creamy.m4a; sourceTree = "<group>"; };
 		1968E27D1DC2E22100422BFE /* TouchFart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchFart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1968E2801DC2E22100422BFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1968E2821DC2E22100422BFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				1968E2A21DC2E8F700422BFE /* 💨.mp3 */,
 				1968E2A01DC2E8DB00422BFE /* 💩.mp3 */,
 				1968E2A41DC2F19D00422BFE /* fart.mp3 */,
+				06D6E1AA1E01E5FA00F84DF7 /* dry.m4a */,
+				06D6E1AB1E01E5FA00F84DF7 /* creamy.m4a */,
 			);
 			name = farts;
 			sourceTree = "<group>";
@@ -196,10 +202,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D6E1AC1E01E60600F84DF7 /* dry.m4a in Resources */,
 				1968E2A31DC2E8F700422BFE /* 💨.mp3 in Resources */,
 				1968E2A51DC2F19D00422BFE /* fart.mp3 in Resources */,
 				1968E2A11DC2E8DB00422BFE /* 💩.mp3 in Resources */,
 				1968E2851DC2E22100422BFE /* Assets.xcassets in Resources */,
+				06D6E1AD1E01E60600F84DF7 /* creamy.m4a in Resources */,
 				1968E2881DC2E22100422BFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +359,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TouchFart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hung-truong.TouchFart";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -364,6 +373,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = TouchFart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hung-truong.TouchFart";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
