@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06A2D68F1EB5C76700B238C9 /* 🌬.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 06A2D68D1EB5C76700B238C9 /* 🌬.m4a */; };
+		06A2D6901EB5C76700B238C9 /* 🍑.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 06A2D68E1EB5C76700B238C9 /* 🍑.m4a */; };
 		06D6E1AC1E01E60600F84DF7 /* dry.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 06D6E1AA1E01E5FA00F84DF7 /* dry.m4a */; };
 		06D6E1AD1E01E60600F84DF7 /* creamy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 06D6E1AB1E01E5FA00F84DF7 /* creamy.m4a */; };
 		1968E2811DC2E22100422BFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1968E2801DC2E22100422BFE /* AppDelegate.swift */; };
@@ -31,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06A2D68D1EB5C76700B238C9 /* 🌬.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "🌬.m4a"; sourceTree = "<group>"; };
+		06A2D68E1EB5C76700B238C9 /* 🍑.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "🍑.m4a"; sourceTree = "<group>"; };
 		06D6E1AA1E01E5FA00F84DF7 /* dry.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = dry.m4a; sourceTree = "<group>"; };
 		06D6E1AB1E01E5FA00F84DF7 /* creamy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = creamy.m4a; sourceTree = "<group>"; };
 		1968E27D1DC2E22100422BFE /* TouchFart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchFart.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +114,8 @@
 		1968E29F1DC2E8D100422BFE /* farts */ = {
 			isa = PBXGroup;
 			children = (
+				06A2D68D1EB5C76700B238C9 /* 🌬.m4a */,
+				06A2D68E1EB5C76700B238C9 /* 🍑.m4a */,
 				1968E2A21DC2E8F700422BFE /* 💨.mp3 */,
 				1968E2A01DC2E8DB00422BFE /* 💩.mp3 */,
 				1968E2A41DC2F19D00422BFE /* fart.mp3 */,
@@ -208,6 +214,8 @@
 				1968E2A11DC2E8DB00422BFE /* 💩.mp3 in Resources */,
 				1968E2851DC2E22100422BFE /* Assets.xcassets in Resources */,
 				06D6E1AD1E01E60600F84DF7 /* creamy.m4a in Resources */,
+				06A2D68F1EB5C76700B238C9 /* 🌬.m4a in Resources */,
+				06A2D6901EB5C76700B238C9 /* 🍑.m4a in Resources */,
 				1968E2881DC2E22100422BFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
