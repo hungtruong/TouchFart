@@ -15,6 +15,8 @@ fileprivate extension NSTouchBarCustomizationIdentifier {
 fileprivate extension NSTouchBarItemIdentifier {
     static let 💩       = NSTouchBarItemIdentifier("💩")
     static let 💨       = NSTouchBarItemIdentifier("💨")
+    static let 🍑       = NSTouchBarItemIdentifier("🍑")
+    static let 🌬       = NSTouchBarItemIdentifier("🌬")
     static let fart     = NSTouchBarItemIdentifier("fart")
     static let dry      = NSTouchBarItemIdentifier("dry")
     static let creamy   = NSTouchBarItemIdentifier("creamy")
@@ -37,7 +39,7 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
         let touchBar = NSTouchBar()
         touchBar.delegate = self
         touchBar.customizationIdentifier    = .touchBar
-        touchBar.defaultItemIdentifiers     = [.💩, .💨, .fixedSpaceSmall, .fart, .dry, .creamy]
+        touchBar.defaultItemIdentifiers     = [.💩, .💨, .🍑, .🌬, .fixedSpaceSmall, .fart, .dry, .creamy]
         
         return touchBar
     }
