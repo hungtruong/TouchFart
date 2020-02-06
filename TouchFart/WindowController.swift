@@ -8,25 +8,25 @@
 
 import Cocoa
 
-fileprivate extension NSTouchBarCustomizationIdentifier {
-    static let touchBar = NSTouchBarCustomizationIdentifier("com.hung-truong.touchfart")
+fileprivate extension NSTouchBar.CustomizationIdentifier {
+    static let touchBar = NSTouchBar.CustomizationIdentifier("com.hung-truong.touchfart")
 }
 
-fileprivate extension NSTouchBarItemIdentifier {
-    static let 💩       = NSTouchBarItemIdentifier("💩")
-    static let 💨       = NSTouchBarItemIdentifier("💨")
-    static let fart     = NSTouchBarItemIdentifier("fart")
-    static let dry      = NSTouchBarItemIdentifier("dry")
-    static let creamy   = NSTouchBarItemIdentifier("creamy")
+fileprivate extension NSTouchBarItem.Identifier {
+    static let 💩       = NSTouchBarItem.Identifier("💩")
+    static let 💨       = NSTouchBarItem.Identifier("💨")
+    static let fart     = NSTouchBarItem.Identifier("fart")
+    static let dry      = NSTouchBarItem.Identifier("dry")
+    static let creamy   = NSTouchBarItem.Identifier("creamy")
 }
 
 
 class WindowController: NSWindowController, NSTouchBarDelegate {
 
-    func handleFart(sender: NSButton) {
+    @objc func handleFart(sender: NSButton) {
         let title = sender.title
         
-        guard let sound = NSSound(named: title) else {
+        guard let sound = NSSound(named: NSSound.Name(rawValue: title)) else {
             return
         }
         sound.play()
@@ -43,7 +43,7 @@ class WindowController: NSWindowController, NSTouchBarDelegate {
     }
     
     @available(OSX 10.12.2, *)
-    func touchBar(_ touchBar: NSTouchBar, makeItemForIdentifier identifier: NSTouchBarItemIdentifier) -> NSTouchBarItem? {
+    func touchBar(_ touchBar: NSTouchBar, makeItemForIdentifier identifier: NSTouchBarItem.Identifier) -> NSTouchBarItem? {
         let touchBarItem    = NSCustomTouchBarItem(identifier: identifier)
         touchBarItem.view   = NSButton(title: identifier.rawValue, target: self, action: #selector(handleFart))
         return touchBarItem
